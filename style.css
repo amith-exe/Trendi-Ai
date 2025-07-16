@@ -1,0 +1,106 @@
+/* General page settings */
+body {
+    background-color: #f4f4f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center container for homepage */
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Title styling */
+h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Search box styling */
+input[type="text"] {
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 350px;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px #4a90e2;
+}
+
+/* Search button */
+button {
+    margin-top: 1rem;
+    padding: 10px 25px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+/* Cluster section */
+.cluster-box {
+    margin: 2rem 0;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* Topic items */
+.topic-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1rem;
+}
+
+.topic-item:last-child {
+    border-bottom: none;
+}
+
+/* Navigation buttons */
+.cluster-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cluster-nav button {
+    padding: 8px 20px;
+    font-size: 1rem;
+}
+
+/* Home button icon positioning */
+.home-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.5rem;
+    color: #4a90e2;
+    cursor: pointer;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
