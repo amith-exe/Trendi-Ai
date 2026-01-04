@@ -1,4 +1,4 @@
-<h1 align="center">🚀 TrendiAI: Cross-Platform AI Research Trend Tracker</h1>
+<h1 align="center">TrendiAI: Cross-Platform AI Research Trend Tracker</h1>
 
 <p align="center">
   A powerful research trend discovery tool that fetches and clusters AI topics from <strong>arXiv, GitHub, Reddit</strong>, and <strong>Exa</strong>. Built using Python, NLP, and Streamlit.
@@ -6,20 +6,20 @@
 
 <hr>
 
-<h2>📌 Features</h2>
+<h2>Features</h2>
 
 <ul>
-  <li>🔍 Unified search across 4 AI research platforms</li>
-  <li>🧠 KMeans clustering to group topics</li>
-  <li>📝 Keyword extraction using KeyBERT</li>
-  <li>📈 Ranking based on source priority, relevance, and recency</li>
-  <li>💡 Google-style UI built with Streamlit</li>
-  <li>🔐 Secure API key management using <code>.env</code></li>
+  <li>Unified search across 4 AI research platforms</li>
+  <li> KMeans clustering to group topics</li>
+  <li> Keyword extraction using KeyBERT</li>
+  <li>Ranking based on source priority, relevance, and recency</li>
+  <li>Google-style UI built with Streamlit</li>
+  <li> Secure API key management using <code>.env</code></li>
 </ul>
 
 <hr>
 
-<h2>⚙️ Technologies Used</h2>
+<h2> Technologies Used</h2>
 
 <ul>
   <li><strong>Python 3.10+</strong></li>
@@ -31,7 +31,7 @@
 
 <hr>
 
-<h2>🧠 How It Works</h2>
+<h2> How It Works</h2>
 
 <ol>
   <li>User enters a research query.</li>
@@ -45,7 +45,7 @@
 
 <hr>
 
-<h2>🧪 Local Setup</h2>
+<h2> Local Setup</h2>
 
 <h4>Clone the repo</h4>
 
